@@ -1,0 +1,49 @@
+@import '../../SASS_CONFIG.scss';
+
+.landing-page {
+	background-color: $primary;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	.title {
+		font-weight: bold;
+		margin: 3px 2px 2px 3px;
+	}
+
+	.tagline {
+		margin: 0;
+	}
+
+	.hero {
+		max-width: 70%;
+		max-height: 60%;
+	}
+
+	.call-to-action {
+		padding: 5px;
+	}
+
+	p {
+		padding: 5px 3px 3px 5px;
+	}
+
+	form {
+		box-sizing: content-box;
+
+		input {
+			background-color: grey;
+		}
+
+		.email-btn {
+			font-size: 20px;
+			border: 2px solid black;
+			border-radius: 5px;
+
+			&:hover {
+				color: grey;
+				border-width: solid;
+			}
+		}
+	}
+}
